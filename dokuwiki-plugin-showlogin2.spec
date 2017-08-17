@@ -6,7 +6,7 @@
 Summary:	Dokuwiki Action Plugin: Show Login-Page on "Access Denied"
 Name:		dokuwiki-plugin-%{plugin}
 Version:	%{ver}
-Release:	1
+Release:	2
 License:	GPL v2
 Group:		Applications/WWW
 Source0:	https://github.com/kvormweg/showlogin2/archive/v0.3.4/%{plugin}-%{subver}.tar.gz
@@ -14,6 +14,7 @@ Source0:	https://github.com/kvormweg/showlogin2/archive/v0.3.4/%{plugin}-%{subve
 URL:		https://www.dokuwiki.org/plugin:showlogin2
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 BuildRequires:	rpmbuild(macros) >= 1.553
+Requires:	dokuwiki < 20140505
 Requires:	dokuwiki >= 20131208
 Requires:	php(core) >= %{php_min_version}
 BuildArch:	noarch
