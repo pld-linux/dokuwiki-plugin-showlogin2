@@ -2,7 +2,6 @@
 %define		ver		%(echo %{subver} | tr -d -)
 %define		plugin		showlogin2
 %define		php_min_version 5.0.0
-%include	/usr/lib/rpm/macros.php
 Summary:	Dokuwiki Action Plugin: Show Login-Page on "Access Denied"
 Name:		dokuwiki-plugin-%{plugin}
 Version:	%{ver}
